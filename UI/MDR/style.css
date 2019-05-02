@@ -91,6 +91,10 @@ section#home{
     background: url('https://source.unsplash.com/YpVOQir8dIY/1600x900') no-repeat center center/cover;
 }
 
+section#screenshots{
+    background: url('https://source.unsplash.com/4zbEzE87zz4/1600x900') no-repeat center center/cover;
+}
+
 /* section#home{
     background: url('http://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;
 } */
@@ -193,6 +197,10 @@ section#login{
     cursor: pointer;
 }
 
+.carousel_button button:focus{
+	outline: none;
+}
+
 .carousel_button--left{
     left: -40px;
 }
@@ -220,8 +228,13 @@ section#login{
     background: rgba(255,255,255,0.75);
     
     margin: 0 12px;
+    cursor: pointer;
 }
 
 .carousel_indicator.current-slide{
     background: rgba(123, 235, 108, 0.9);
+}
+
+.is-hidden {
+    display: none;
 }
